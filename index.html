@@ -1008,7 +1008,19 @@
     });
   </script>
 
+  <!--added script-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+  <!-- Your script to initialize dropdowns -->
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    M.Dropdown.init(elems, {});
+  });
+  </script>
+  
+  <!-- close new script-->
   <!-- jQuery-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
