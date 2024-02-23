@@ -447,12 +447,17 @@ h3 {
 }
 
 .card .card-title {
-  font-size: 24px;
+  font-size: 20px; /* Adjust the font size to fit your design */
+  margin: 0 0 10px 0; /* Add space below the title */
+  padding: 10px; /* Add padding to give some breathing room */
+  text-align: left; /* Align to the left, right, or center as needed */
 }
 
 .card .card-content .card-title {
-  line-height: 2.5rem;
+  line-height: normal; /* Adjust line height for better readability */
+  margin-top: 0; /* Remove top margin if necessary */
 }
+
 
 .card i.right {
   margin-left: 10px;
