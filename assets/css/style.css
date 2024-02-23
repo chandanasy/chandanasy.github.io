@@ -454,9 +454,15 @@ h3 {
 }
 
 .card .card-content .card-title {
-  line-height: normal; /* Adjust line height for better readability */
-  margin-top: 0; /* Remove top margin if necessary */
+  display: block; /* Ensure it's a block-level element to allow margin manipulation */
+  margin-top: 20px; /* Adjust as needed to create space above the job title */
+  border-top: 1px solid #cccccc; /* Creates a line above the job title. Adjust the color as needed */
+  padding-top: 10px; /* Adds space between the line and the job title text */
+  font-size: 24px; /* Adjust the font size as needed */
+  line-height: 1.5; /* Adjust the line height for better readability */
+  text-align: left; /* Keep the text aligned to the left */
 }
+
 
 
 .card i.right {
