@@ -446,21 +446,24 @@ h3 {
   font-size: 13px;
 }
 
-.card .card-title {
-  font-size: 20px; /* Adjust the font size to fit your design */
-  margin: 0 0 10px 0; /* Add space below the title */
-  padding: 10px; /* Add padding to give some breathing room */
-  text-align: left; /* Align to the left, right, or center as needed */
+.card .card-content .card-title {
+  font-size: 24px; /* Larger font size for the company name */
+  font-weight: bold; /* Optional: if you want the company name to be bold */
+  text-align: left; /* Align to the left */
+  margin-top: 0; /* No margin at the top to keep it at the top */
 }
 
-.card .card-content .card-title {
-  display: block; /* Ensure it's a block-level element to allow margin manipulation */
-  margin-top: 20px; /* Adjust as needed to create space above the job title */
-  border-top: 1px solid #cccccc; /* Creates a line above the job title. Adjust the color as needed */
-  padding-top: 10px; /* Adds space between the line and the job title text */
-  font-size: 24px; /* Adjust the font size as needed */
-  line-height: 1.5; /* Adjust the line height for better readability */
-  text-align: left; /* Keep the text aligned to the left */
+.card .card-content .job-role {
+  font-size: 18px; /* Slightly smaller font size for the job role */
+  font-weight: normal; /* Adjust as needed */
+  text-align: left; /* Align to the left */
+  margin-top: 5px; /* Space between the company name and the job role */
+}
+
+/* Remove border from the job role if it's there */
+.card .card-content .job-role {
+  border-top: none;
+  padding-top: 0;
 }
 
 
