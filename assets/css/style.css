@@ -11,7 +11,7 @@
   /* background-size: cover;  */
   margin: -31px; 
   margin-left:-7px;
-  border: 6px solid #6a0dad; 
+  border: 6px solid rgba(0, 77, 64, 0.4); 
   border-radius: 50% !important;
 }
 
@@ -41,7 +41,7 @@
   width: 50px;
   height: 50px;
   border: 0;
-  color: #2c003e; /* Dark purple text */
+  color: #FFFFFF;
   cursor: pointer;
   font-size: 30px;
   line-height: 70px;
@@ -85,7 +85,7 @@
   position: relative;
   padding: 11px 35px;
   background: #fff;
-  color: #2c003e;
+  color: #00796b;
   border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
@@ -105,7 +105,7 @@
   padding: 11px 35px;
   background: none;
   color: #fff;
-  border: 2px solid #2c003e;
+  border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
@@ -116,7 +116,7 @@
 }
 
 .contactme:hover{
-  color: #2c003e;
+  color: #00796b;
   background-color: white;
 }
 /* main body */
@@ -124,10 +124,9 @@
 /* body-color */
 
 body {
-  color: #800080;
+  color: #333;
   font-size: 18px;
 }
-
 
 /* body {
   color: black;
@@ -201,7 +200,7 @@ nav i {
 } */
 
 main {
-  background-color: #000000; /* Black */
+  background: url(../../assets/img/bg.png) repeat;
   padding-left: 190px;
 }
 
