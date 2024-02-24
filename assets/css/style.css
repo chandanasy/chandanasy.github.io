@@ -124,8 +124,7 @@
 /* body-color */
 
 body {
-  background-color: #000000; /* Black */
-  color: #800080; /* Purple */
+  color: #333;
   font-size: 18px;
 }
 
